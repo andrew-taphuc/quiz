@@ -26,11 +26,21 @@ export function PracticePage({ quiz }) {
               : 'Chọn đáp án và xem đúng/sai ngay'}
           </h1>
         </div>
-        <span className="rounded-full bg-slate-900/80 px-3 py-1 text-[11px] text-slate-300 ring-1 ring-slate-700">
-          {practiceSource === 'all'
-            ? 'Tất cả câu hỏi'
-            : `${generatedQuiz.length} câu ngẫu nhiên`}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-slate-900/80 px-3 py-1 text-[11px] text-slate-300 ring-1 ring-slate-700">
+            {practiceSource === 'all'
+              ? 'Tất cả câu hỏi'
+              : `${generatedQuiz.length} câu ngẫu nhiên`}
+          </span>
+          <button
+            type="button"
+            onClick={() => setScreen('config')}
+            aria-label="Về màn hình chính"
+            className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-amber-400/80 bg-amber-400/20 text-[12px] font-semibold text-amber-300 shadow-sm shadow-amber-400/30 transition hover:bg-amber-400/30 hover:text-amber-50"
+          >
+            ⌂
+          </button>
+        </div>
       </div>
 
       <div className="max-h-[60vh] space-y-4 overflow-y-auto pr-1">

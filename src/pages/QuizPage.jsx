@@ -11,6 +11,7 @@ export function QuizPage({ quiz }) {
     handlePrev,
     handleSubmit,
     viewMode,
+    setScreen,
   } = quiz
 
   const question = generatedQuiz[currentIndex]
@@ -77,9 +78,19 @@ export function QuizPage({ quiz }) {
           <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
           Câu {currentIndex + 1} / {generatedQuiz.length}
         </span>
-        <span className="rounded-full bg-slate-900/80 px-3 py-1 text-[11px] font-medium text-slate-300 ring-1 ring-slate-700">
-          {question.type}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-slate-900/80 px-3 py-1 text-[11px] font-medium text-slate-300 ring-1 ring-slate-700">
+            {question.type}
+          </span>
+          <button
+            type="button"
+            onClick={() => setScreen('config')}
+            aria-label="Về màn hình chính"
+            className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-amber-400/80 bg-amber-400/20 text-[12px] font-semibold text-amber-300 shadow-sm shadow-amber-400/30 transition hover:bg-amber-400/30 hover:text-amber-50"
+          >
+            ⌂
+          </button>
+        </div>
       </div>
 
       <ProgressBar current={currentIndex} total={generatedQuiz.length} />
