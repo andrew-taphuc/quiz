@@ -1,0 +1,1202 @@
+[
+    {
+      "id": 1,
+      "question": "Khoa học dữ liệu là lĩnh vực kết hợp chặt chẽ giữa ba trụ cột nào?",
+      "options": [
+        { "id": 1, "text": "Toán học và thống kê, khoa học máy tính, kiến thức chuyên môn" },
+        { "id": 2, "text": "Kế toán, tài chính, marketing" },
+        { "id": 3, "text": "SQL, Excel, Power BI" },
+        { "id": 4, "text": "Machine learning, deep learning, AI" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 2,
+      "question": "Mục tiêu cốt lõi của khoa học dữ liệu là gì?",
+      "options": [
+        { "id": 1, "text": "Tăng dung lượng ổ cứng" },
+        { "id": 2, "text": "Khai thác giá trị từ dữ liệu" },
+        { "id": 3, "text": "Thay thế hoàn toàn con người" },
+        { "id": 4, "text": "Chỉ để vẽ biểu đồ" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 3,
+      "question": "Bước đầu tiên trong chu trình khai thác dữ liệu để giải quyết vấn đề thực tế là gì?",
+      "options": [
+        { "id": 1, "text": "Thu thập dữ liệu" },
+        { "id": 2, "text": "Xác định bài toán" },
+        { "id": 3, "text": "Đánh giá mô hình" },
+        { "id": 4, "text": "Xây dựng mô hình" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 4,
+      "question": "Sau bước xác định bài toán, bước tiếp theo là gì?",
+      "options": [
+        { "id": 1, "text": "Thu thập dữ liệu" },
+        { "id": 2, "text": "Triển khai mô hình" },
+        { "id": 3, "text": "Đánh giá mô hình" },
+        { "id": 4, "text": "Phục vụ dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 5,
+      "question": "Bước khai phá dữ liệu chủ yếu nhằm mục đích gì?",
+      "options": [
+        { "id": 1, "text": "Xóa toàn bộ dữ liệu lỗi" },
+        { "id": 2, "text": "Hiểu đặc điểm tổng quát của dữ liệu" },
+        { "id": 3, "text": "Triển khai dashboard" },
+        { "id": 4, "text": "Tạo API cho hệ thống" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 6,
+      "question": "Bước xử lý dữ liệu thường bao gồm hoạt động nào?",
+      "options": [
+        { "id": 1, "text": "Làm sạch và chuẩn hóa dữ liệu" },
+        { "id": 2, "text": "Chỉ viết báo cáo cuối cùng" },
+        { "id": 3, "text": "Chỉ cài đặt hệ điều hành" },
+        { "id": 4, "text": "Chỉ mua thêm RAM" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 7,
+      "question": "Bước nào trong chu trình khoa học dữ liệu liên quan trực tiếp đến việc lựa chọn thuật toán học máy?",
+      "options": [
+        { "id": 1, "text": "Khai phá dữ liệu" },
+        { "id": 2, "text": "Xây dựng mô hình" },
+        { "id": 3, "text": "Thu thập dữ liệu" },
+        { "id": 4, "text": "Tổ chức lưu trữ" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 8,
+      "question": "Bước đánh giá mô hình dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Xác định hiệu quả của mô hình bằng các chỉ số phù hợp" },
+        { "id": 2, "text": "Xóa mô hình khỏi hệ thống" },
+        { "id": 3, "text": "Chỉ đổi tên biến" },
+        { "id": 4, "text": "Chỉ định dạng lại dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 9,
+      "question": "Bước cuối cùng trong chu trình khoa học dữ liệu là gì?",
+      "options": [
+        { "id": 1, "text": "Khai phá dữ liệu" },
+        { "id": 2, "text": "Triển khai và giám sát" },
+        { "id": 3, "text": "Xử lý dữ liệu" },
+        { "id": 4, "text": "Tổ chức dữ liệu" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 10,
+      "question": "Trong bối cảnh kinh tế và kinh doanh, khoa học dữ liệu thường gắn với mục tiêu nào?",
+      "options": [
+        { "id": 1, "text": "Tối ưu hiệu quả kinh tế và hỗ trợ ra quyết định" },
+        { "id": 2, "text": "Chỉ nhận diện khuôn mặt" },
+        { "id": 3, "text": "Chỉ xử lý ảnh y tế" },
+        { "id": 4, "text": "Chỉ chơi game" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 11,
+      "question": "Dữ liệu trong kinh tế và kinh doanh thường phản ánh điều gì?",
+      "options": [
+        { "id": 1, "text": "Hành vi con người trong tiêu dùng, đầu tư, quản trị rủi ro..." },
+        { "id": 2, "text": "Chỉ tín hiệu vật lý ổn định" },
+        { "id": 3, "text": "Chỉ ảnh vệ tinh" },
+        { "id": 4, "text": "Chỉ dữ liệu âm thanh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 12,
+      "question": "Điểm khác biệt quan trọng của mô hình trong kinh tế và kinh doanh là gì?",
+      "options": [
+        { "id": 1, "text": "Chỉ cần độ chính xác, không cần giải thích" },
+        { "id": 2, "text": "Cần cả độ chính xác và khả năng giải thích" },
+        { "id": 3, "text": "Không cần dữ liệu lịch sử" },
+        { "id": 4, "text": "Không cần liên hệ nghiệp vụ" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 13,
+      "question": "Ví dụ nào phù hợp với bài toán khoa học dữ liệu trong kinh tế và kinh doanh?",
+      "options": [
+        { "id": 1, "text": "Dự báo doanh thu" },
+        { "id": 2, "text": "Xử lý tín hiệu radar quân sự" },
+        { "id": 3, "text": "Nhận diện giọng nói tiếng cá heo" },
+        { "id": 4, "text": "Mô phỏng quỹ đạo hành tinh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 14,
+      "question": "Trong kinh tế và kinh doanh, dữ liệu thường ở dạng nào?",
+      "options": [
+        { "id": 1, "text": "Bảng biểu như danh sách khách hàng, hóa đơn, số liệu tài chính" },
+        { "id": 2, "text": "Chỉ ảnh nhiệt" },
+        { "id": 3, "text": "Chỉ video drone" },
+        { "id": 4, "text": "Chỉ dữ liệu DNA" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 15,
+      "question": "Trong kinh tế và kinh doanh, đánh giá mô hình ngoài độ chính xác còn cần xem xét điều gì?",
+      "options": [
+        { "id": 1, "text": "Mô hình có giúp cải thiện hiệu quả kinh doanh hay không" },
+        { "id": 2, "text": "Màu của biểu đồ" },
+        { "id": 3, "text": "Loại font chữ trong báo cáo" },
+        { "id": 4, "text": "Tên máy tính chạy mô hình" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 16,
+      "question": "Ba lĩnh vực chuyên sâu tiêu biểu có liên quan mật thiết đến khoa học dữ liệu hiện nay là gì?",
+      "options": [
+        { "id": 1, "text": "Kỹ thuật dữ liệu, phân tích dữ liệu, học máy" },
+        { "id": 2, "text": "Thiết kế web, kiểm thử, bảo mật" },
+        { "id": 3, "text": "Kế toán, nhân sự, logistics" },
+        { "id": 4, "text": "Đồ họa, game, mạng máy tính" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 17,
+      "question": "Kỹ thuật dữ liệu chủ yếu tập trung vào điều gì?",
+      "options": [
+        { "id": 1, "text": "Thiết kế, xây dựng, quản trị và duy trì hạ tầng dữ liệu" },
+        { "id": 2, "text": "Chỉ viết báo cáo quản trị" },
+        { "id": 3, "text": "Chỉ huấn luyện mô hình deep learning" },
+        { "id": 4, "text": "Chỉ làm giao diện dashboard" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 18,
+      "question": "Phân tích dữ liệu tập trung vào nhiệm vụ nào?",
+      "options": [
+        { "id": 1, "text": "Khám phá, hiểu và diễn giải mô hình, mối quan hệ, xu hướng trong dữ liệu" },
+        { "id": 2, "text": "Xây hạ tầng lưu trữ phân tán" },
+        { "id": 3, "text": "Triển khai Kubernetes" },
+        { "id": 4, "text": "Chỉ tạo API web" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 19,
+      "question": "Học máy hướng đến điều gì?",
+      "options": [
+        { "id": 1, "text": "Tự động hóa việc học từ dữ liệu và đưa ra dự đoán/quyết định" },
+        { "id": 2, "text": "Chỉ lưu file Excel" },
+        { "id": 3, "text": "Chỉ sao lưu dữ liệu" },
+        { "id": 4, "text": "Chỉ hiển thị biểu đồ tĩnh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 20,
+      "question": "Vai trò trung tâm của kỹ sư dữ liệu trong chu trình khoa học dữ liệu thể hiện rõ nhất ở bước nào?",
+      "options": [
+        { "id": 1, "text": "Thu thập dữ liệu" },
+        { "id": 2, "text": "Đánh giá mô hình" },
+        { "id": 3, "text": "Kể chuyện bằng dữ liệu" },
+        { "id": 4, "text": "A/B testing" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 21,
+      "question": "Kỹ sư dữ liệu thường hỗ trợ mạnh ở bước nào sau đây ngoài thu thập dữ liệu?",
+      "options": [
+        { "id": 1, "text": "Xử lý dữ liệu" },
+        { "id": 2, "text": "Chỉ thuyết trình báo cáo" },
+        { "id": 3, "text": "Chỉ thiết kế logo" },
+        { "id": 4, "text": "Chỉ nhập liệu thủ công" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 22,
+      "question": "Phân tích mô tả (descriptive analytics) trả lời câu hỏi nào?",
+      "options": [
+        { "id": 1, "text": "Điều gì đã xảy ra?" },
+        { "id": 2, "text": "Điều gì nên làm tối ưu?" },
+        { "id": 3, "text": "Dữ liệu được lưu ở đâu?" },
+        { "id": 4, "text": "Mô hình học sâu nào tốt nhất?" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 23,
+      "question": "Phân tích chẩn đoán (diagnostic analytics) chủ yếu nhằm mục đích gì?",
+      "options": [
+        { "id": 1, "text": "Tìm nguyên nhân của hiện tượng đã xảy ra" },
+        { "id": 2, "text": "Chỉ dự báo tương lai" },
+        { "id": 3, "text": "Chỉ nén dữ liệu" },
+        { "id": 4, "text": "Chỉ vẽ biểu đồ tròn" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 24,
+      "question": "Phân tích dự đoán (predictive analytics) thường dựa trên cơ sở nào?",
+      "options": [
+        { "id": 1, "text": "Dữ liệu lịch sử và các mô hình thống kê" },
+        { "id": 2, "text": "Chỉ cảm tính của người quản lý" },
+        { "id": 3, "text": "Chỉ màu sắc dashboard" },
+        { "id": 4, "text": "Chỉ dữ liệu chưa kiểm tra" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 25,
+      "question": "Phân tích đề xuất (prescriptive analytics) hướng đến điều gì?",
+      "options": [
+        { "id": 1, "text": "Gợi ý các hành động tối ưu" },
+        { "id": 2, "text": "Chỉ lưu trữ dữ liệu gốc" },
+        { "id": 3, "text": "Chỉ ghi log hệ thống" },
+        { "id": 4, "text": "Chỉ đổi tên cột dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 26,
+      "question": "Phân tích dữ liệu thường không bao gồm hoạt động nào?",
+      "options": [
+        { "id": 1, "text": "Tự động hóa quy trình thu thập và tích hợp dữ liệu quy mô lớn" },
+        { "id": 2, "text": "Thực hiện thống kê mô tả" },
+        { "id": 3, "text": "Trực quan hóa dữ liệu" },
+        { "id": 4, "text": "Diễn giải kết quả phân tích" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 27,
+      "question": "Trong chu trình khoa học dữ liệu, phân tích dữ liệu phát huy vai trò cốt lõi nhất ở bước nào?",
+      "options": [
+        { "id": 1, "text": "Khai phá dữ liệu" },
+        { "id": 2, "text": "Lưu trữ dữ liệu" },
+        { "id": 3, "text": "Phân quyền hệ thống" },
+        { "id": 4, "text": "Mua dịch vụ cloud" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 28,
+      "question": "Phân tích dữ liệu có thể tham gia trực tiếp trong xây dựng mô hình khi nào?",
+      "options": [
+        { "id": 1, "text": "Khi dùng các mô hình thống kê đơn giản như hồi quy tuyến tính" },
+        { "id": 2, "text": "Chỉ khi dùng robot vật lý" },
+        { "id": 3, "text": "Chỉ khi không có dữ liệu" },
+        { "id": 4, "text": "Chỉ khi không cần đánh giá mô hình" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 29,
+      "question": "Học máy được chia thành mấy nhóm chính theo slide?",
+      "options": [
+        { "id": 1, "text": "2 nhóm" },
+        { "id": 2, "text": "3 nhóm" },
+        { "id": 3, "text": "4 nhóm" },
+        { "id": 4, "text": "5 nhóm" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 30,
+      "question": "Học có giám sát (supervised learning) sử dụng loại dữ liệu nào?",
+      "options": [
+        { "id": 1, "text": "Dữ liệu đã gán nhãn" },
+        { "id": 2, "text": "Dữ liệu không nhãn" },
+        { "id": 3, "text": "Chỉ dữ liệu âm thanh" },
+        { "id": 4, "text": "Chỉ dữ liệu JSON" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 31,
+      "question": "Phân nhóm khách hàng (clustering) là ví dụ của loại học nào?",
+      "options": [
+        { "id": 1, "text": "Học có giám sát" },
+        { "id": 2, "text": "Học không giám sát" },
+        { "id": 3, "text": "Học tăng cường" },
+        { "id": 4, "text": "Học chuyển giao" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 32,
+      "question": "Học tăng cường (reinforcement learning) dựa trên nguyên tắc nào?",
+      "options": [
+        { "id": 1, "text": "Học thông qua tương tác với môi trường và tối ưu phần thưởng" },
+        { "id": 2, "text": "Chỉ dùng file CSV" },
+        { "id": 3, "text": "Chỉ mô tả dữ liệu quá khứ" },
+        { "id": 4, "text": "Chỉ lọc dữ liệu thiếu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 33,
+      "question": "Dữ liệu là gì theo slide?",
+      "options": [
+        { "id": 1, "text": "Thông tin chưa được xử lý, tồn tại ở dạng thô" },
+        { "id": 2, "text": "Kết luận cuối cùng của nhà quản lý" },
+        { "id": 3, "text": "Chỉ là các con số" },
+        { "id": 4, "text": "Chỉ là văn bản có cấu trúc" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 34,
+      "question": "Theo cấu trúc, dữ liệu được chia thành mấy loại chính?",
+      "options": [
+        { "id": 1, "text": "2 loại" },
+        { "id": 2, "text": "3 loại" },
+        { "id": 3, "text": "4 loại" },
+        { "id": 4, "text": "5 loại" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 35,
+      "question": "Dữ liệu có cấu trúc thường được lưu trong hệ nào?",
+      "options": [
+        { "id": 1, "text": "Hệ quản trị cơ sở dữ liệu quan hệ" },
+        { "id": 2, "text": "Chỉ file ảnh PNG" },
+        { "id": 3, "text": "Chỉ video MP4" },
+        { "id": 4, "text": "Chỉ PDF scan" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 36,
+      "question": "Nguồn phổ biến của dữ liệu có cấu trúc là gì?",
+      "options": [
+        { "id": 1, "text": "Cơ sở dữ liệu SQL và bảng tính như Excel/Google Sheets" },
+        { "id": 2, "text": "Ảnh JPEG và GIF" },
+        { "id": 3, "text": "File âm thanh WAV" },
+        { "id": 4, "text": "Video livestream" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 37,
+      "question": "Dữ liệu bán cấu trúc có đặc điểm nào?",
+      "options": [
+        { "id": 1, "text": "Có một số tổ chức nhưng không theo lược đồ cố định như dữ liệu có cấu trúc" },
+        { "id": 2, "text": "Luôn lưu trong bảng quan hệ chặt chẽ" },
+        { "id": 3, "text": "Không có bất kỳ cấu trúc nào" },
+        { "id": 4, "text": "Chỉ tồn tại dưới dạng số" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 38,
+      "question": "JSON thường được xem là định dạng gì trong bài giảng?",
+      "options": [
+        { "id": 1, "text": "Định dạng lưu trữ và trao đổi dữ liệu bán cấu trúc" },
+        { "id": 2, "text": "Định dạng ảnh nén" },
+        { "id": 3, "text": "Định dạng video" },
+        { "id": 4, "text": "Định dạng bảng tính độc quyền" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 39,
+      "question": "Trang web, mạng xã hội, ảnh, âm thanh, video thường thuộc loại dữ liệu nào?",
+      "options": [
+        { "id": 1, "text": "Phi cấu trúc" },
+        { "id": 2, "text": "Có cấu trúc" },
+        { "id": 3, "text": "Định lượng" },
+        { "id": 4, "text": "Bán cấu trúc bắt buộc" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 40,
+      "question": "CSV là ví dụ điển hình của loại tệp nào?",
+      "options": [
+        { "id": 1, "text": "Tệp văn bản phân tách" },
+        { "id": 2, "text": "Tệp nhị phân ảnh" },
+        { "id": 3, "text": "Tệp nén video" },
+        { "id": 4, "text": "Tệp thực thi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 41,
+      "question": "TSV sử dụng ký tự phân tách nào?",
+      "options": [
+        { "id": 1, "text": "Dấu phẩy" },
+        { "id": 2, "text": "Tab" },
+        { "id": 3, "text": "Dấu chấm phẩy" },
+        { "id": 4, "text": "Dấu chấm" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 42,
+      "question": "XML có ưu điểm nổi bật nào được nhắc đến trong slide?",
+      "options": [
+        { "id": 1, "text": "Cho phép mô tả dữ liệu theo cấu trúc phân cấp và người dùng tự định nghĩa thẻ" },
+        { "id": 2, "text": "Chỉ dùng được trong Excel" },
+        { "id": 3, "text": "Không đọc được bởi con người" },
+        { "id": 4, "text": "Chỉ lưu ảnh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 43,
+      "question": "PDF thường được dùng nhiều trong loại tài liệu nào?",
+      "options": [
+        { "id": 1, "text": "Tài liệu pháp lý, tài chính và biểu mẫu" },
+        { "id": 2, "text": "Chỉ dữ liệu cảm biến thời gian thực" },
+        { "id": 3, "text": "Chỉ dữ liệu giao dịch SQL" },
+        { "id": 4, "text": "Chỉ mô hình machine learning" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 44,
+      "question": "JSON đặc biệt phổ biến trong bối cảnh nào?",
+      "options": [
+        { "id": 1, "text": "API và dịch vụ web" },
+        { "id": 2, "text": "In tài liệu giấy" },
+        { "id": 3, "text": "Lưu ảnh độ phân giải cao" },
+        { "id": 4, "text": "Chỉ hệ thống mainframe cũ" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 45,
+      "question": "API là viết tắt của cụm nào?",
+      "options": [
+        { "id": 1, "text": "Application Programming Interface" },
+        { "id": 2, "text": "Applied Process Integration" },
+        { "id": 3, "text": "Advanced Program Internet" },
+        { "id": 4, "text": "Automated Public Interaction" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 46,
+      "question": "Web scraping thường được dùng khi nào?",
+      "options": [
+        { "id": 1, "text": "Khi trang web không có API công khai" },
+        { "id": 2, "text": "Khi chỉ muốn in PDF" },
+        { "id": 3, "text": "Khi dữ liệu đã ở trong Excel nội bộ" },
+        { "id": 4, "text": "Khi không cần dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 47,
+      "question": "Công cụ nào được nhắc đến như ví dụ cho web scraping?",
+      "options": [
+        { "id": 1, "text": "Scrapy và Selenium" },
+        { "id": 2, "text": "Photoshop và Illustrator" },
+        { "id": 3, "text": "Word và PowerPoint" },
+        { "id": 4, "text": "Git và Docker Compose" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 48,
+      "question": "Dữ liệu từ IoT, GPS, cảm biến, camera an ninh thường phù hợp với kiểu xử lý nào?",
+      "options": [
+        { "id": 1, "text": "Phân tích thời gian thực hoặc gần thời gian thực" },
+        { "id": 2, "text": "Chỉ xử lý thủ công cuối năm" },
+        { "id": 3, "text": "Không thể phân tích" },
+        { "id": 4, "text": "Chỉ dùng để in báo cáo giấy" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 49,
+      "question": "Ba nhóm ngôn ngữ phổ biến trong khoa học dữ liệu được nêu trong slide là gì?",
+      "options": [
+        { "id": 1, "text": "Ngôn ngữ truy vấn, ngôn ngữ lập trình, ngôn ngữ shell/script" },
+        { "id": 2, "text": "HTML, CSS, JavaScript" },
+        { "id": 3, "text": "Java, Kotlin, Swift" },
+        { "id": 4, "text": "C, C++, Assembly" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 50,
+      "question": "SQL chủ yếu dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Truy xuất và thao tác với dữ liệu trong cơ sở dữ liệu quan hệ" },
+        { "id": 2, "text": "Thiết kế giao diện web" },
+        { "id": 3, "text": "Vẽ hình vector" },
+        { "id": 4, "text": "Dựng video" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 51,
+      "question": "Python được đánh giá cao trong khoa học dữ liệu nhờ điều gì?",
+      "options": [
+        { "id": 1, "text": "Cú pháp đơn giản và hệ sinh thái thư viện phong phú" },
+        { "id": 2, "text": "Chỉ vì chạy nhanh hơn mọi ngôn ngữ khác" },
+        { "id": 3, "text": "Chỉ dùng cho hệ điều hành Windows" },
+        { "id": 4, "text": "Không cần thư viện ngoài" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 52,
+      "question": "Thư viện nào sau đây gắn với Python trong khoa học dữ liệu theo slide?",
+      "options": [
+        { "id": 1, "text": "NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn" },
+        { "id": 2, "text": "Laravel, Symfony, Django ORM" },
+        { "id": 3, "text": "Bootstrap, Tailwind, jQuery" },
+        { "id": 4, "text": "Unity, Unreal, Godot" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 53,
+      "question": "R nổi bật trong lĩnh vực nào?",
+      "options": [
+        { "id": 1, "text": "Thống kê và trực quan hóa dữ liệu" },
+        { "id": 2, "text": "Thiết kế game 3D" },
+        { "id": 3, "text": "Lập trình firmware" },
+        { "id": 4, "text": "Vẽ CAD cơ khí" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 54,
+      "question": "Unix/Linux Shell thường hỗ trợ tốt cho việc gì?",
+      "options": [
+        { "id": 1, "text": "Tự động hóa các tác vụ lặp lại như sao lưu, xử lý tệp, giám sát hệ thống" },
+        { "id": 2, "text": "Huấn luyện mô hình deep learning trực tiếp trên giấy" },
+        { "id": 3, "text": "Chỉ tạo biểu đồ tròn" },
+        { "id": 4, "text": "Chỉ sửa ảnh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 55,
+      "question": "PowerShell được slide nhấn mạnh ở điểm nào?",
+      "options": [
+        { "id": 1, "text": "Hỗ trợ làm việc với JSON, XML, REST API và có thể tạo dashboard/báo cáo" },
+        { "id": 2, "text": "Chỉ chạy trên Linux" },
+        { "id": 3, "text": "Chỉ xử lý ảnh" },
+        { "id": 4, "text": "Không làm việc được với dữ liệu có cấu trúc" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 56,
+      "question": "Theo slide, bao nhiêu phần trăm thời gian trong dự án khoa học dữ liệu thường dành cho thu thập, làm sạch, chuẩn hóa, tổ chức dữ liệu?",
+      "options": [
+        { "id": 1, "text": "10–20%" },
+        { "id": 2, "text": "30–40%" },
+        { "id": 3, "text": "50–60%" },
+        { "id": 4, "text": "70–80%" }
+      ],
+      "correct_answer": 4,
+      "type": "cơ bản"
+    },
+    {
+      "id": 57,
+      "question": "Kỹ thuật dữ liệu có thể được xem là cầu nối giữa gì?",
+      "options": [
+        { "id": 1, "text": "Dữ liệu thô và dữ liệu có khả năng tạo ra giá trị phân tích" },
+        { "id": 2, "text": "Frontend và backend" },
+        { "id": 3, "text": "Thiết kế và in ấn" },
+        { "id": 4, "text": "CPU và GPU" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 58,
+      "question": "Chu trình kỹ thuật dữ liệu theo slide gồm mấy giai đoạn chính?",
+      "options": [
+        { "id": 1, "text": "4" },
+        { "id": 2, "text": "5" },
+        { "id": 3, "text": "6" },
+        { "id": 4, "text": "7" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 59,
+      "question": "Giai đoạn đầu tiên trong chu trình kỹ thuật dữ liệu là gì?",
+      "options": [
+        { "id": 1, "text": "Xác định nguồn sinh dữ liệu" },
+        { "id": 2, "text": "Thu nạp dữ liệu" },
+        { "id": 3, "text": "Biến đổi dữ liệu" },
+        { "id": 4, "text": "Phục vụ dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 60,
+      "question": "Giai đoạn nào trong chu trình kỹ thuật dữ liệu quyết định dữ liệu được cung cấp cho người dùng cuối và hệ thống ứng dụng?",
+      "options": [
+        { "id": 1, "text": "Phục vụ dữ liệu" },
+        { "id": 2, "text": "Xác định nguồn sinh dữ liệu" },
+        { "id": 3, "text": "Tổ chức lưu trữ dữ liệu" },
+        { "id": 4, "text": "Khai phá dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 61,
+      "question": "Ví dụ nào sau đây là hệ thống nguồn trong kinh tế và kinh doanh?",
+      "options": [
+        { "id": 1, "text": "Cơ sở dữ liệu giao dịch ngân hàng hoặc thương mại điện tử" },
+        { "id": 2, "text": "Chỉ slide PowerPoint bài giảng" },
+        { "id": 3, "text": "Chỉ ảnh chụp màn hình" },
+        { "id": 4, "text": "Chỉ file cài đặt phần mềm" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 62,
+      "question": "Yếu tố nào KHÔNG phải đặc tính kỹ thuật cần xem xét ở hệ thống nguồn?",
+      "options": [
+        { "id": 1, "text": "Cách thức sinh dữ liệu" },
+        { "id": 2, "text": "Tần suất cập nhật" },
+        { "id": 3, "text": "Định dạng dữ liệu" },
+        { "id": 4, "text": "Màu nền của giao diện người dùng" }
+      ],
+      "correct_answer": 4,
+      "type": "cơ bản"
+    },
+    {
+      "id": 63,
+      "question": "Cơ sở dữ liệu phi quan hệ (NoSQL) phù hợp hơn với loại dữ liệu nào?",
+      "options": [
+        { "id": 1, "text": "Bán cấu trúc hoặc phi cấu trúc" },
+        { "id": 2, "text": "Chỉ dữ liệu bảng quan hệ đơn giản" },
+        { "id": 3, "text": "Chỉ dữ liệu số nguyên" },
+        { "id": 4, "text": "Chỉ dữ liệu giấy tờ in" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 64,
+      "question": "MongoDB thuộc nhóm nào sau đây?",
+      "options": [
+        { "id": 1, "text": "Cơ sở dữ liệu tài liệu trong họ NoSQL" },
+        { "id": 2, "text": "Kho dữ liệu tổng thể mặc định" },
+        { "id": 3, "text": "Ngôn ngữ lập trình thống kê" },
+        { "id": 4, "text": "Công cụ vẽ biểu đồ" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 65,
+      "question": "Data warehouse chủ yếu dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Lưu trữ dữ liệu đã làm sạch, chuẩn hóa, tích hợp để phục vụ truy vấn và phân tích hiệu suất cao" },
+        { "id": 2, "text": "Lưu ảnh và video thô là chính" },
+        { "id": 3, "text": "Chỉ chạy ứng dụng frontend" },
+        { "id": 4, "text": "Chỉ lưu mã nguồn" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 66,
+      "question": "Data mart là gì?",
+      "options": [
+        { "id": 1, "text": "Một phần nhỏ của kho dữ liệu phục vụ từng bộ phận hoặc chức năng cụ thể" },
+        { "id": 2, "text": "Một file CSV duy nhất" },
+        { "id": 3, "text": "Một loại dashboard" },
+        { "id": 4, "text": "Một kỹ thuật học tăng cường" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 67,
+      "question": "Data lake phù hợp nhất với tình huống nào?",
+      "options": [
+        { "id": 1, "text": "Lưu trữ dữ liệu thô nhiều định dạng cho bài toán học máy và khai phá dữ liệu" },
+        { "id": 2, "text": "Chỉ lưu hóa đơn kế toán dạng bảng cố định" },
+        { "id": 3, "text": "Chỉ chạy SQL đơn giản" },
+        { "id": 4, "text": "Chỉ lưu số điện thoại" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 68,
+      "question": "Dữ liệu được dùng hằng ngày, cần truy cập nhanh, thường được gọi là gì theo slide?",
+      "options": [
+        { "id": 1, "text": "Dữ liệu nóng" },
+        { "id": 2, "text": "Dữ liệu nguội" },
+        { "id": 3, "text": "Dữ liệu chết" },
+        { "id": 4, "text": "Dữ liệu lạnh sâu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 69,
+      "question": "Phương pháp batch trong thu nạp dữ liệu có đặc điểm gì?",
+      "options": [
+        { "id": 1, "text": "Thu thập và xử lý dữ liệu theo từng khối lớn, theo giờ/ngày hoặc ngưỡng dung lượng" },
+        { "id": 2, "text": "Xử lý ngay lập tức từng sự kiện ở mức mili giây là bắt buộc" },
+        { "id": 3, "text": "Không cần lưu dữ liệu" },
+        { "id": 4, "text": "Chỉ dùng cho dữ liệu hình ảnh" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 70,
+      "question": "Streaming phù hợp nhất khi nào?",
+      "options": [
+        { "id": 1, "text": "Khi cần xử lý gần thời gian thực" },
+        { "id": 2, "text": "Khi chỉ cần báo cáo cuối năm" },
+        { "id": 3, "text": "Khi không có yêu cầu độ trễ" },
+        { "id": 4, "text": "Khi dữ liệu chỉ tồn tại trên giấy" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 71,
+      "question": "Phương thức push trong truyền tải dữ liệu nghĩa là gì?",
+      "options": [
+        { "id": 1, "text": "Hệ thống nguồn chủ động gửi dữ liệu đến nơi lưu trữ/xử lý" },
+        { "id": 2, "text": "Hệ thống đích luôn phải đi hỏi dữ liệu" },
+        { "id": 3, "text": "Dữ liệu chỉ được gửi thủ công bằng email" },
+        { "id": 4, "text": "Dữ liệu không cần qua mạng" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 72,
+      "question": "Phương thức pull trong truyền tải dữ liệu nghĩa là gì?",
+      "options": [
+        { "id": 1, "text": "Hệ thống đích chủ động truy vấn/lấy dữ liệu từ nguồn theo lịch" },
+        { "id": 2, "text": "Nguồn tự động đẩy dữ liệu" },
+        { "id": 3, "text": "Dữ liệu bị xóa sau khi truyền" },
+        { "id": 4, "text": "Không cần hạ tầng lưu trữ" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 73,
+      "question": "Trong ETL, thứ tự đúng là gì?",
+      "options": [
+        { "id": 1, "text": "Extract - Transform - Load" },
+        { "id": 2, "text": "Extract - Load - Transform" },
+        { "id": 3, "text": "Transform - Extract - Load" },
+        { "id": 4, "text": "Load - Extract - Transform" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 74,
+      "question": "Trong ELT, bước transform diễn ra khi nào?",
+      "options": [
+        { "id": 1, "text": "Sau khi dữ liệu đã được nạp vào hệ thống lưu trữ đích" },
+        { "id": 2, "text": "Trước khi extract" },
+        { "id": 3, "text": "Trước khi load vào mọi trường hợp" },
+        { "id": 4, "text": "Không có bước transform" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 75,
+      "question": "CDC (Change Data Capture) dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Theo dõi thay đổi thêm, sửa, xóa dữ liệu ở hệ thống nguồn" },
+        { "id": 2, "text": "Nén ảnh PNG" },
+        { "id": 3, "text": "Vẽ dashboard tài chính" },
+        { "id": 4, "text": "Tạo file PDF" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 76,
+      "question": "Biến đổi dữ liệu nhằm mục đích gì?",
+      "options": [
+        { "id": 1, "text": "Chuyển dữ liệu gốc thành dạng phù hợp cho phân tích, báo cáo, mô hình hóa" },
+        { "id": 2, "text": "Chỉ đổi tên file dữ liệu" },
+        { "id": 3, "text": "Chỉ sao lưu dữ liệu" },
+        { "id": 4, "text": "Chỉ nén dung lượng dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 77,
+      "question": "Ví dụ nào là thao tác biến đổi dữ liệu cơ bản?",
+      "options": [
+        { "id": 1, "text": "Chuyển kiểu dữ liệu từ chuỗi sang số hoặc ngày tháng" },
+        { "id": 2, "text": "Mua thêm card màn hình" },
+        { "id": 3, "text": "Thiết kế logo dự án" },
+        { "id": 4, "text": "Cài lại hệ điều hành" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 78,
+      "question": "Phục vụ dữ liệu là giai đoạn nào trong chu trình kỹ thuật dữ liệu?",
+      "options": [
+        { "id": 1, "text": "Giai đoạn cuối, đưa dữ liệu đến người dùng cuối/hệ thống ứng dụng" },
+        { "id": 2, "text": "Giai đoạn đầu tiên xác định nguồn" },
+        { "id": 3, "text": "Giai đoạn bỏ dữ liệu lỗi" },
+        { "id": 4, "text": "Giai đoạn chỉ lưu log" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 79,
+      "question": "Embedded Analytics là gì?",
+      "options": [
+        { "id": 1, "text": "Tích hợp công cụ phân tích trực tiếp vào sản phẩm hoặc dịch vụ" },
+        { "id": 2, "text": "Chỉ chạy phân tích trên Excel offline" },
+        { "id": 3, "text": "Chỉ gửi email báo cáo" },
+        { "id": 4, "text": "Chỉ dùng cho dữ liệu in giấy" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 80,
+      "question": "Reverse ETL thường nhằm mục đích gì?",
+      "options": [
+        { "id": 1, "text": "Đưa dữ liệu/kết quả phân tích ngược trở lại hệ thống vận hành như CRM, quảng cáo..." },
+        { "id": 2, "text": "Xóa dữ liệu trong kho" },
+        { "id": 3, "text": "Biến JSON thành PDF" },
+        { "id": 4, "text": "Huấn luyện mô hình không giám sát" }
+      ],
+      "correct_answer": 1,
+      "type": "vận dụng nâng cao"
+    },
+    {
+      "id": 81,
+      "question": "Vai trò nào chịu trách nhiệm xây dựng, duy trì và tối ưu hệ thống lưu trữ, xử lý, truyền dẫn dữ liệu?",
+      "options": [
+        { "id": 1, "text": "Data Engineer" },
+        { "id": 2, "text": "Data Analyst" },
+        { "id": 3, "text": "Business Manager" },
+        { "id": 4, "text": "UX Designer" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 82,
+      "question": "Nhóm kỹ năng nền tảng của Data Engineer bao gồm nội dung nào?",
+      "options": [
+        { "id": 1, "text": "Làm việc với CSDL quan hệ/phi quan hệ, pipeline dữ liệu, hệ thống phân tán, ngôn ngữ xử lý dữ liệu" },
+        { "id": 2, "text": "Chỉ chỉnh sửa ảnh" },
+        { "id": 3, "text": "Chỉ viết content marketing" },
+        { "id": 4, "text": "Chỉ test giao diện web" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 83,
+      "question": "Công cụ nào được nêu như ví dụ trong pipeline dữ liệu của Data Engineer?",
+      "options": [
+        { "id": 1, "text": "Spark, Kafka, Airflow, DBT" },
+        { "id": 2, "text": "Figma, Canva, Photoshop" },
+        { "id": 3, "text": "Premiere, After Effects" },
+        { "id": 4, "text": "Notion, Trello, Slack" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 84,
+      "question": "Data Platform Engineer chủ yếu làm gì?",
+      "options": [
+        { "id": 1, "text": "Xây dựng và quản lý hạ tầng nền tảng dữ liệu tổng thể" },
+        { "id": 2, "text": "Chỉ viết báo cáo tài chính" },
+        { "id": 3, "text": "Chỉ phân tích A/B testing" },
+        { "id": 4, "text": "Chỉ kiểm thử giao diện người dùng" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 85,
+      "question": "Streaming Data Engineer chuyên về gì?",
+      "options": [
+        { "id": 1, "text": "Thiết kế và phát triển pipeline xử lý dữ liệu thời gian thực" },
+        { "id": 2, "text": "Thiết kế cơ sở dữ liệu kế toán trên giấy" },
+        { "id": 3, "text": "Vẽ infographic marketing" },
+        { "id": 4, "text": "Chỉ nhập dữ liệu Excel" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 86,
+      "question": "DataOps Engineer tập trung vào điều gì?",
+      "options": [
+        { "id": 1, "text": "Tự động hóa kiểm thử, triển khai và vận hành pipeline dữ liệu" },
+        { "id": 2, "text": "Chỉ tối ưu SEO website" },
+        { "id": 3, "text": "Chỉ chạy hồi quy tuyến tính" },
+        { "id": 4, "text": "Chỉ trực quan hóa dashboard" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 87,
+      "question": "Data Reliability Engineer tập trung vào nội dung nào?",
+      "options": [
+        { "id": 1, "text": "Đảm bảo tính ổn định, liên tục và chính xác của hệ thống dữ liệu" },
+        { "id": 2, "text": "Chỉ xây landing page" },
+        { "id": 3, "text": "Chỉ viết mô tả sản phẩm" },
+        { "id": 4, "text": "Chỉ xử lý bảng tính kế toán" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 88,
+      "question": "Nhà phân tích dữ liệu khác Data Engineer ở điểm nào nổi bật nhất?",
+      "options": [
+        { "id": 1, "text": "Tập trung vào tìm hiểu, diễn giải dữ liệu hiện có hơn là xây dựng hạ tầng dữ liệu" },
+        { "id": 2, "text": "Chỉ biết dùng PowerPoint" },
+        { "id": 3, "text": "Không cần hiểu nghiệp vụ" },
+        { "id": 4, "text": "Không cần dùng dữ liệu" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 89,
+      "question": "Một năng lực quan trọng của Data Analyst là gì?",
+      "options": [
+        { "id": 1, "text": "Thống kê ứng dụng, SQL, làm sạch dữ liệu, trực quan hóa và hiểu nghiệp vụ" },
+        { "id": 2, "text": "Chỉ lắp đặt phần cứng mạng" },
+        { "id": 3, "text": "Chỉ viết code game" },
+        { "id": 4, "text": "Chỉ dựng video quảng cáo" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 90,
+      "question": "Business Data Analyst thường cần hiểu các chỉ số nào?",
+      "options": [
+        { "id": 1, "text": "CLV, CAC, ROI" },
+        { "id": 2, "text": "FPS, ping, bitrate" },
+        { "id": 3, "text": "RGB, CMYK, DPI" },
+        { "id": 4, "text": "CPU clock, cache, bus" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 91,
+      "question": "Product Analyst thường làm việc với công cụ nào?",
+      "options": [
+        { "id": 1, "text": "Mixpanel, Amplitude, Google Analytics 4" },
+        { "id": 2, "text": "AutoCAD, Revit, SketchUp" },
+        { "id": 3, "text": "Photoshop, Lightroom, Premiere" },
+        { "id": 4, "text": "Blender, Maya, ZBrush" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 92,
+      "question": "Marketing Analyst thường quan tâm đến các chỉ số nào?",
+      "options": [
+        { "id": 1, "text": "ROAS, CPA, CPL" },
+        { "id": 2, "text": "MAE, RMSE, R2" },
+        { "id": 3, "text": "RAM, SSD, GPU" },
+        { "id": 4, "text": "TCP, UDP, DNS" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 93,
+      "question": "Operations Analyst thường quan tâm đến các chỉ số nào?",
+      "options": [
+        { "id": 1, "text": "OTIF và lead time" },
+        { "id": 2, "text": "P/E và EPS" },
+        { "id": 3, "text": "CTR và CPC" },
+        { "id": 4, "text": "AUC và F1-score" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 94,
+      "question": "Nhà khoa học dữ liệu (Data Scientist) nổi bật ở điểm nào?",
+      "options": [
+        { "id": 1, "text": "Kết hợp lập trình, thống kê, mô hình học máy và hiểu biết nghiệp vụ để tạo thông tin có thể hành động" },
+        { "id": 2, "text": "Chỉ xây dựng hạ tầng lưu trữ" },
+        { "id": 3, "text": "Chỉ viết báo cáo mà không dùng mô hình" },
+        { "id": 4, "text": "Chỉ nhập dữ liệu từ giấy" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 95,
+      "question": "Theo slide, lộ trình nghề nghiệp của Data Scientist có thể bao gồm cấp bậc nào?",
+      "options": [
+        { "id": 1, "text": "Junior -> Applied -> Senior/Lead -> Principal/AI Scientist -> Manager/Director" },
+        { "id": 2, "text": "Intern -> Designer -> Tester -> CEO" },
+        { "id": 3, "text": "Teacher -> Accountant -> Lawyer -> Doctor" },
+        { "id": 4, "text": "Backend -> Frontend -> DevOps -> QA" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 96,
+      "question": "ML Engineer chủ yếu chịu trách nhiệm gì?",
+      "options": [
+        { "id": 1, "text": "Đưa mô hình từ môi trường nghiên cứu sang môi trường vận hành thực tế" },
+        { "id": 2, "text": "Chỉ tạo báo cáo Power BI" },
+        { "id": 3, "text": "Chỉ thu thập dữ liệu thủ công" },
+        { "id": 4, "text": "Chỉ quản trị nhân sự" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 97,
+      "question": "MLOps Engineer là cầu nối giữa những nhóm nào?",
+      "options": [
+        { "id": 1, "text": "Kỹ sư phần mềm và khoa học dữ liệu" },
+        { "id": 2, "text": "Thiết kế đồ họa và marketing" },
+        { "id": 3, "text": "Kế toán và pháp chế" },
+        { "id": 4, "text": "Nhân sự và truyền thông" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 98,
+      "question": "Model Optimization Engineer tập trung vào mục tiêu nào?",
+      "options": [
+        { "id": 1, "text": "Giảm độ trễ, tăng hiệu năng và tiết kiệm tài nguyên tính toán của mô hình" },
+        { "id": 2, "text": "Chỉ tăng số lượng biểu đồ trong báo cáo" },
+        { "id": 3, "text": "Chỉ tăng kích thước dữ liệu" },
+        { "id": 4, "text": "Chỉ đổi ngôn ngữ lập trình" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 99,
+      "question": "AI Research Engineer thường làm gì?",
+      "options": [
+        { "id": 1, "text": "Phát triển thuật toán học máy mới và thử nghiệm các phương pháp tiên tiến" },
+        { "id": 2, "text": "Chỉ trực quan hóa dữ liệu bằng dashboard" },
+        { "id": 3, "text": "Chỉ nhập dữ liệu từ biểu mẫu giấy" },
+        { "id": 4, "text": "Chỉ quản lý kho hàng" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 100,
+      "question": "Nếu một doanh nghiệp muốn phát hiện gian lận giao dịch gần thời gian thực, kiến trúc nào phù hợp hơn?",
+      "options": [
+        { "id": 1, "text": "Batch ingestion kết hợp báo cáo cuối tuần" },
+        { "id": 2, "text": "Streaming ingestion và giám sát liên tục" },
+        { "id": 3, "text": "Chỉ lưu dữ liệu vào Excel rồi xem thủ công" },
+        { "id": 4, "text": "Chỉ dùng PDF để phân tích" }
+      ],
+      "correct_answer": 2,
+      "type": "vận dụng nâng cao"
+    }
+  ]
