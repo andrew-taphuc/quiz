@@ -3,6 +3,8 @@ import { useQuizEngine } from './hooks/useQuizEngine'
 import { ConfigPage } from './pages/ConfigPage'
 import { QuizPage } from './pages/QuizPage'
 import { ResultPage } from './pages/ResultPage'
+import { ReviewPage } from './pages/ReviewPage'
+import { PracticePage } from './pages/PracticePage'
 
 function App() {
   const quiz = useQuizEngine()
@@ -34,11 +36,31 @@ function App() {
     )
   }
 
-  return (
-    <QuizLayout>
-      <ResultPage quiz={quiz} />
-    </QuizLayout>
-  )
+  if (quiz.screen === 'practice') {
+    return (
+      <QuizLayout>
+        <PracticePage quiz={quiz} />
+      </QuizLayout>
+    )
+  }
+
+  if (quiz.screen === 'result') {
+    return (
+      <QuizLayout>
+        <ResultPage quiz={quiz} />
+      </QuizLayout>
+    )
+  }
+
+  if (quiz.screen === 'review') {
+    return (
+      <QuizLayout>
+        <ReviewPage quiz={quiz} />
+      </QuizLayout>
+    )
+  }
+
+  return null
 }
 
 export default App

@@ -1,10 +1,26 @@
 import { StudyIcon } from '../components/icons/StudyIcon'
 
 export function ConfigPage({ quiz }) {
-  const { TYPES, filteredByType, count, setCount, maxCount, type, setType, handleStart } =
-    quiz
+  const {
+    TYPES,
+    filteredByType,
+    count,
+    setCount,
+    maxCount,
+    type,
+    setType,
+    handleStart,
+    viewMode,
+    setViewMode,
+    mode,
+    setMode,
+    practiceSource,
+    setPracticeSource,
+    practiceRevealMode,
+    setPracticeRevealMode,
+  } = quiz
 
-  const options = [3, 5, 7, 10, 15, 20].filter((n) => n <= maxCount)
+  const options = [10, 20, 30, 40, 50].filter((n) => n <= maxCount)
 
   return (
     <div className="space-y-7">
@@ -50,7 +66,7 @@ export function ConfigPage({ quiz }) {
 
           <div className="space-y-1 text-sm">
             <label className="font-medium text-slate-200">Loại câu hỏi</label>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-2">
               {TYPES.map((t) => (
                 <button
                   key={t.value}
@@ -67,6 +83,126 @@ export function ConfigPage({ quiz }) {
               ))}
             </div>
           </div>
+
+          <div className="space-y-1 text-sm">
+            <label className="font-medium text-slate-200">Cách hiển thị đề</label>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => setViewMode('single')}
+                className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                  viewMode === 'single'
+                    ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                    : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                }`}
+              >
+                Từng câu
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('all')}
+                className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                  viewMode === 'all'
+                    ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                    : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                }`}
+              >
+                Cả đề dọc
+              </button>
+            </div>
+          </div>
+
+          <div className="space-y-1 text-sm">
+            <label className="font-medium text-slate-200">Chế độ làm bài</label>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => setMode('exam')}
+                className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                  mode === 'exam'
+                    ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                    : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                }`}
+              >
+                Thi thử
+              </button>
+              <button
+                type="button"
+                onClick={() => setMode('practice')}
+                className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                  mode === 'practice'
+                    ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                    : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                }`}
+              >
+                Ôn tập
+              </button>
+            </div>
+          </div>
+
+          {mode === 'practice' && (
+            <>
+              <div className="space-y-1 text-sm">
+                <label className="font-medium text-slate-200">
+                  Nguồn câu hỏi ôn tập
+                </label>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setPracticeSource('random')}
+                    className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                      practiceSource === 'random'
+                        ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                        : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                    }`}
+                  >
+                    Ngẫu nhiên theo số lượng
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setPracticeSource('all')}
+                    className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                      practiceSource === 'all'
+                        ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                        : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                    }`}
+                  >
+                    Tất cả câu trong thư viện
+                  </button>
+                </div>
+              </div>
+
+              <div className="space-y-1 text-sm">
+                <label className="font-medium text-slate-200">
+                  Cách hiển thị đáp án
+                </label>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setPracticeRevealMode('full')}
+                    className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                      practiceRevealMode === 'full'
+                        ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                        : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                    }`}
+                  >
+                    Đúng/sai từng lựa chọn
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setPracticeRevealMode('onlyCorrect')}
+                    className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                      practiceRevealMode === 'onlyCorrect'
+                        ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
+                        : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
+                    }`}
+                  >
+                    Chỉ tô đáp án đúng
+                  </button>
+                </div>
+              </div>
+            </>
+          )}
         </div>
 
         <p className="text-xs text-slate-400">
@@ -78,7 +214,12 @@ export function ConfigPage({ quiz }) {
           {type !== 'tất cả' ? (
             <span className="italic text-slate-300">({type})</span>
           ) : null}{' '}
-          — hệ thống sẽ chọn ngẫu nhiên cho đề thi.
+          —{' '}
+          {mode === 'practice'
+            ? practiceSource === 'all'
+              ? 'sẽ ôn tập lần lượt toàn bộ.'
+              : 'sẽ ôn tập ngẫu nhiên theo số lượng đã chọn.'
+            : 'hệ thống sẽ chọn ngẫu nhiên cho đề thi.'}
         </p>
 
         <button

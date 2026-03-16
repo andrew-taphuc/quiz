@@ -3,7 +3,6 @@ import { useEffect, useMemo, useState } from 'react'
 const TYPES = [
   { value: 'tất cả', label: 'Tất cả' },
   { value: 'cơ bản', label: 'Cơ bản' },
-  { value: 'vận dụng nâng cao', label: 'Vận dụng nâng cao' },
 ]
 
 function shuffle(arr) {
@@ -24,6 +23,10 @@ export function useQuizEngine() {
   const [generatedQuiz, setGeneratedQuiz] = useState([])
   const [answers, setAnswers] = useState({})
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [viewMode, setViewMode] = useState('single') // 'single' | 'all'
+  const [mode, setMode] = useState('exam') // 'exam' | 'practice'
+  const [practiceSource, setPracticeSource] = useState('random') // 'random' | 'all'
+  const [practiceRevealMode, setPracticeRevealMode] = useState('full') // 'full' | 'onlyCorrect'
 
   useEffect(() => {
     fetch('/quiz.json')
@@ -44,11 +47,26 @@ export function useQuizEngine() {
   )
 
   const maxCount = useMemo(
-    () => Math.min(20, Math.max(1, filteredByType.length || 1)),
+    () => Math.min(50, Math.max(1, filteredByType.length || 1)),
     [filteredByType.length],
   )
 
   const handleStart = () => {
+    if (mode === 'practice') {
+      let quizQuestions = filteredByType
+      if (practiceSource === 'random') {
+        const pool = shuffle(filteredByType)
+        const take = Math.min(count, pool.length)
+        quizQuestions = pool.slice(0, take)
+      }
+
+      setGeneratedQuiz(quizQuestions)
+      setAnswers({})
+      setCurrentIndex(0)
+      setScreen('practice')
+      return
+    }
+
     const pool = shuffle(filteredByType)
     const take = Math.min(count, pool.length)
     setGeneratedQuiz(pool.slice(0, take))
@@ -78,6 +96,8 @@ export function useQuizEngine() {
     setGeneratedQuiz([])
     setAnswers({})
     setCurrentIndex(0)
+    setViewMode('single')
+    setMode('exam')
   }
 
   const score = useMemo(
@@ -110,6 +130,14 @@ export function useQuizEngine() {
     handleSubmit,
     handleStart,
     resetToConfig,
+    viewMode,
+    setViewMode,
+    mode,
+    setMode,
+    practiceSource,
+    setPracticeSource,
+    practiceRevealMode,
+    setPracticeRevealMode,
     score,
     total,
     percent,

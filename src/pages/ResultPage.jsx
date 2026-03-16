@@ -1,7 +1,8 @@
 import { ResultIcon } from '../components/icons/ResultIcon'
 
 export function ResultPage({ quiz }) {
-  const { score, total, percent, generatedQuiz, answers, resetToConfig } = quiz
+  const { score, total, percent, generatedQuiz, answers, resetToConfig, setScreen } =
+    quiz
 
   let mood = 'ok'
   if (percent >= 90) mood = 'great'
@@ -85,16 +86,25 @@ export function ResultPage({ quiz }) {
         </ul>
       </div>
 
-      <button
-        type="button"
-        onClick={resetToConfig}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 via-indigo-400 to-sky-400 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-md transition hover:brightness-110"
-      >
-        Làm đề khác
-        <span className="inline-flex h-4 w-4 items-center justify-center rounded-full border border-slate-900/70 bg-slate-900/40 text-[9px]">
-          ↻
-        </span>
-      </button>
+      <div className="flex gap-3">
+        <button
+          type="button"
+          onClick={() => setScreen('review')}
+          className="inline-flex w-1/2 flex-1 items-center justify-center gap-2 rounded-xl border border-slate-800 bg-slate-900/80 px-4 py-2.5 text-sm font-medium text-slate-200 shadow-sm transition hover:border-slate-600 hover:bg-slate-800"
+        >
+          Xem lại bài làm
+        </button>
+        <button
+          type="button"
+          onClick={resetToConfig}
+          className="inline-flex w-1/2 flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 via-indigo-400 to-sky-400 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-md transition hover:brightness-110"
+        >
+          Làm đề khác
+          <span className="inline-flex h-4 w-4 items-center justify-center rounded-full border border-slate-900/70 bg-slate-900/40 text-[9px]">
+            ↻
+          </span>
+        </button>
+      </div>
     </div>
   )
 }
