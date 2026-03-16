@@ -1,0 +1,1202 @@
+[
+    {
+      "id": 1,
+      "question": "Python là ngôn ngữ lập trình thuộc loại nào?",
+      "options": [
+        { "id": 1, "text": "Ngôn ngữ lập trình bậc cao" },
+        { "id": 2, "text": "Ngôn ngữ máy" },
+        { "id": 3, "text": "Ngôn ngữ hợp ngữ" },
+        { "id": 4, "text": "Ngôn ngữ chỉ dùng cho phần cứng" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 2,
+      "question": "Lệnh nào dùng để in dữ liệu ra màn hình trong Python?",
+      "options": [
+        { "id": 1, "text": "echo()" },
+        { "id": 2, "text": "print()" },
+        { "id": 3, "text": "input()" },
+        { "id": 4, "text": "show()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 3,
+      "question": "Cách nào sau đây dùng để khai báo biến trong Python?",
+      "options": [
+        { "id": 1, "text": "int x = 5" },
+        { "id": 2, "text": "x := 5" },
+        { "id": 3, "text": "x = 5" },
+        { "id": 4, "text": "declare x = 5" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 4,
+      "question": "Kiểu dữ liệu của giá trị 3.14 trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "int" },
+        { "id": 2, "text": "float" },
+        { "id": 3, "text": "str" },
+        { "id": 4, "text": "bool" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 5,
+      "question": "Kiểu dữ liệu của giá trị \"hello\" trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "char" },
+        { "id": 2, "text": "text" },
+        { "id": 3, "text": "str" },
+        { "id": 4, "text": "string[]" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 6,
+      "question": "Giá trị logic đúng trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "true" },
+        { "id": 2, "text": "TRUE" },
+        { "id": 3, "text": "True" },
+        { "id": 4, "text": "T" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 7,
+      "question": "Giá trị logic sai trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "false" },
+        { "id": 2, "text": "False" },
+        { "id": 3, "text": "FALSE" },
+        { "id": 4, "text": "F" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 8,
+      "question": "Toán tử nào dùng để cộng hai số trong Python?",
+      "options": [
+        { "id": 1, "text": "+" },
+        { "id": 2, "text": "&" },
+        { "id": 3, "text": "add" },
+        { "id": 4, "text": "++" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 9,
+      "question": "Kết quả của biểu thức 10 / 2 trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "5.0" },
+        { "id": 3, "text": "0" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 10,
+      "question": "Kết quả của biểu thức 10 // 3 trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "3" },
+        { "id": 2, "text": "3.33" },
+        { "id": 3, "text": "4" },
+        { "id": 4, "text": "1" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 11,
+      "question": "Kết quả của biểu thức 10 % 3 trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "3" },
+        { "id": 2, "text": "1" },
+        { "id": 3, "text": "0" },
+        { "id": 4, "text": "10" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 12,
+      "question": "Toán tử nào dùng để lũy thừa trong Python?",
+      "options": [
+        { "id": 1, "text": "^" },
+        { "id": 2, "text": "**" },
+        { "id": 3, "text": "^^" },
+        { "id": 4, "text": "//" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 13,
+      "question": "Kết quả của biểu thức 2 ** 3 là gì?",
+      "options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "6" },
+        { "id": 3, "text": "8" },
+        { "id": 4, "text": "9" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 14,
+      "question": "Hàm nào dùng để nhập dữ liệu từ bàn phím trong Python?",
+      "options": [
+        { "id": 1, "text": "scan()" },
+        { "id": 2, "text": "read()" },
+        { "id": 3, "text": "input()" },
+        { "id": 4, "text": "get()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 15,
+      "question": "Hàm input() trả về kiểu dữ liệu gì mặc định?",
+      "options": [
+        { "id": 1, "text": "int" },
+        { "id": 2, "text": "float" },
+        { "id": 3, "text": "bool" },
+        { "id": 4, "text": "str" }
+      ],
+      "correct_answer": 4,
+      "type": "cơ bản"
+    },
+    {
+      "id": 16,
+      "question": "Muốn chuyển chuỗi \"123\" thành số nguyên trong Python, dùng hàm nào?",
+      "options": [
+        { "id": 1, "text": "str()" },
+        { "id": 2, "text": "int()" },
+        { "id": 3, "text": "float()" },
+        { "id": 4, "text": "bool()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 17,
+      "question": "Muốn chuyển số 5 thành chuỗi trong Python, dùng hàm nào?",
+      "options": [
+        { "id": 1, "text": "text()" },
+        { "id": 2, "text": "char()" },
+        { "id": 3, "text": "str()" },
+        { "id": 4, "text": "string()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 18,
+      "question": "Dòng chú thích một dòng trong Python bắt đầu bằng ký tự nào?",
+      "options": [
+        { "id": 1, "text": "//" },
+        { "id": 2, "text": "#" },
+        { "id": 3, "text": "--" },
+        { "id": 4, "text": "/*" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 19,
+      "question": "Python sử dụng yếu tố nào để xác định khối lệnh?",
+      "options": [
+        { "id": 1, "text": "Dấu ;" },
+        { "id": 2, "text": "Dấu {}" },
+        { "id": 3, "text": "Thụt lề" },
+        { "id": 4, "text": "Dấu ()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 20,
+      "question": "Câu lệnh điều kiện trong Python dùng từ khóa nào?",
+      "options": [
+        { "id": 1, "text": "if" },
+        { "id": 2, "text": "cond" },
+        { "id": 3, "text": "switch" },
+        { "id": 4, "text": "case" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 21,
+      "question": "Biểu thức nào tạo ra tuple trong Python?",
+      "options": [
+        { "id": 1, "text": "t = [1, 2, 3]" },
+        { "id": 2, "text": "t = (1, 2, 3)" },
+        { "id": 3, "text": "t = {1, 2, 3}" },
+        { "id": 4, "text": "t = <1, 2, 3>" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 22,
+      "question": "Từ khóa nào dùng trong nhánh ngược lại của câu lệnh if?",
+      "options": [
+        { "id": 1, "text": "elseif" },
+        { "id": 2, "text": "else" },
+        { "id": 3, "text": "otherwise" },
+        { "id": 4, "text": "default" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 23,
+      "question": "Từ khóa nào dùng cho nhánh điều kiện phụ trong Python?",
+      "options": [
+        { "id": 1, "text": "elif" },
+        { "id": 2, "text": "else if" },
+        { "id": 3, "text": "elseif" },
+        { "id": 4, "text": "case" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 24,
+      "question": "Toán tử so sánh bằng trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "=" },
+        { "id": 2, "text": "==" },
+        { "id": 3, "text": "===" },
+        { "id": 4, "text": ":=" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 25,
+      "question": "Toán tử dùng để gán giá trị cho biến là gì?",
+      "options": [
+        { "id": 1, "text": "=" },
+        { "id": 2, "text": "==" },
+        { "id": 3, "text": "!=" },
+        { "id": 4, "text": "<=" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 26,
+      "question": "Kết quả của biểu thức 5 > 3 là gì?",
+      "options": [
+        { "id": 1, "text": "true" },
+        { "id": 2, "text": "1" },
+        { "id": 3, "text": "True" },
+        { "id": 4, "text": "YES" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 27,
+      "question": "Toán tử logic \"và\" trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "&&" },
+        { "id": 2, "text": "&" },
+        { "id": 3, "text": "and" },
+        { "id": 4, "text": "AND" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 28,
+      "question": "Toán tử logic \"hoặc\" trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "||" },
+        { "id": 2, "text": "or" },
+        { "id": 3, "text": "OR" },
+        { "id": 4, "text": "|" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 29,
+      "question": "Toán tử logic phủ định trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "!" },
+        { "id": 2, "text": "~" },
+        { "id": 3, "text": "not" },
+        { "id": 4, "text": "NOT" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 30,
+      "question": "Vòng lặp nào được dùng để lặp qua một dãy phần tử trong Python?",
+      "options": [
+        { "id": 1, "text": "for" },
+        { "id": 2, "text": "repeat" },
+        { "id": 3, "text": "foreach()" },
+        { "id": 4, "text": "loop" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 31,
+      "question": "Vòng lặp nào được dùng khi chưa biết trước số lần lặp trong Python?",
+      "options": [
+        { "id": 1, "text": "for" },
+        { "id": 2, "text": "while" },
+        { "id": 3, "text": "repeat-until" },
+        { "id": 4, "text": "loop" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 32,
+      "question": "Hàm range(5) tạo ra dãy số nào?",
+      "options": [
+        { "id": 1, "text": "1, 2, 3, 4, 5" },
+        { "id": 2, "text": "0, 1, 2, 3, 4" },
+        { "id": 3, "text": "0, 1, 2, 3, 4, 5" },
+        { "id": 4, "text": "5" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 33,
+      "question": "Kết quả in ra của đoạn code: print(list(range(2, 6))) là gì?",
+      "options": [
+        { "id": 1, "text": "[2, 3, 4, 5]" },
+        { "id": 2, "text": "[2, 3, 4, 5, 6]" },
+        { "id": 3, "text": "[1, 2, 3, 4, 5]" },
+        { "id": 4, "text": "[2, 6]" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 34,
+      "question": "Lệnh nào dùng để thoát khỏi vòng lặp ngay lập tức?",
+      "options": [
+        { "id": 1, "text": "stop" },
+        { "id": 2, "text": "exit" },
+        { "id": 3, "text": "break" },
+        { "id": 4, "text": "return" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 35,
+      "question": "Lệnh nào dùng để bỏ qua lần lặp hiện tại và chuyển sang lần lặp tiếp theo?",
+      "options": [
+        { "id": 1, "text": "pass" },
+        { "id": 2, "text": "continue" },
+        { "id": 3, "text": "break" },
+        { "id": 4, "text": "skip" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 36,
+      "question": "Từ khóa nào dùng để định nghĩa hàm trong Python?",
+      "options": [
+        { "id": 1, "text": "function" },
+        { "id": 2, "text": "func" },
+        { "id": 3, "text": "def" },
+        { "id": 4, "text": "lambda" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 37,
+      "question": "Từ khóa nào dùng để trả về giá trị từ hàm?",
+      "options": [
+        { "id": 1, "text": "yield" },
+        { "id": 2, "text": "send" },
+        { "id": 3, "text": "return" },
+        { "id": 4, "text": "out" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 38,
+      "question": "Đoạn code nào định nghĩa đúng một hàm tên hello?",
+      "options": [
+        { "id": 1, "text": "function hello(): print('Hi')" },
+        { "id": 2, "text": "def hello(): print('Hi')" },
+        { "id": 3, "text": "hello() = print('Hi')" },
+        { "id": 4, "text": "func hello(): print('Hi')" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 39,
+      "question": "Kết quả của đoạn code: len('Python') là gì?",
+      "options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "6" },
+        { "id": 3, "text": "7" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 40,
+      "question": "Chuỗi trong Python được bao bởi ký tự nào?",
+      "options": [
+        { "id": 1, "text": "Dấu nháy đơn hoặc nháy kép" },
+        { "id": 2, "text": "Dấu ngoặc nhọn" },
+        { "id": 3, "text": "Dấu ngoặc vuông" },
+        { "id": 4, "text": "Dấu < >" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 41,
+      "question": "Kết quả của biểu thức 'Py' + 'thon' là gì?",
+      "options": [
+        { "id": 1, "text": "Py thon" },
+        { "id": 2, "text": "Python" },
+        { "id": 3, "text": "Python" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 42,
+      "question": "Kết quả của biểu thức 'A' * 3 là gì?",
+      "options": [
+        { "id": 1, "text": "AAA" },
+        { "id": 2, "text": "A3" },
+        { "id": 3, "text": "Error" },
+        { "id": 4, "text": "['A', 'A', 'A']" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 43,
+      "question": "Ký tự đầu tiên của chuỗi s = 'Python' có chỉ số là bao nhiêu?",
+      "options": [
+        { "id": 1, "text": "1" },
+        { "id": 2, "text": "0" },
+        { "id": 3, "text": "-1" },
+        { "id": 4, "text": "2" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 44,
+      "question": "Kết quả của biểu thức 'Python'[0] là gì?",
+      "options": [
+        { "id": 1, "text": "y" },
+        { "id": 2, "text": "P" },
+        { "id": 3, "text": "Python" },
+        { "id": 4, "text": "0" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 45,
+      "question": "Kết quả của biểu thức 'Python'[-1] là gì?",
+      "options": [
+        { "id": 1, "text": "P" },
+        { "id": 2, "text": "n" },
+        { "id": 3, "text": "o" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 46,
+      "question": "Kiểu dữ liệu nào dùng để lưu danh sách phần tử có thể thay đổi trong Python?",
+      "options": [
+        { "id": 1, "text": "tuple" },
+        { "id": 2, "text": "list" },
+        { "id": 3, "text": "set" },
+        { "id": 4, "text": "dict" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 47,
+      "question": "Biểu thức nào tạo ra list trong Python?",
+      "options": [
+        { "id": 1, "text": "a = (1, 2, 3)" },
+        { "id": 2, "text": "a = [1, 2, 3]" },
+        { "id": 3, "text": "a = {1, 2, 3}" },
+        { "id": 4, "text": "a = <1, 2, 3>" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 48,
+      "question": "Kết quả của đoạn code: a = [1, 2, 3]; print(a[1]) là gì?",
+      "options": [
+        { "id": 1, "text": "1" },
+        { "id": 2, "text": "2" },
+        { "id": 3, "text": "3" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 49,
+      "question": "Phương thức nào dùng để thêm một phần tử vào cuối list?",
+      "options": [
+        { "id": 1, "text": "add()" },
+        { "id": 2, "text": "push()" },
+        { "id": 3, "text": "append()" },
+        { "id": 4, "text": "insertLast()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 50,
+      "question": "Kết quả của đoạn code: a = [1, 2]; a.append(3); print(a) là gì?",
+      "options": [
+        { "id": 1, "text": "[1, 2]" },
+        { "id": 2, "text": "[1, 2, 3]" },
+        { "id": 3, "text": "[3, 1, 2]" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 51,
+      "question": "Kiểu dữ liệu tuple trong Python có đặc điểm gì?",
+      "options": [
+        { "id": 1, "text": "Có thể thay đổi phần tử" },
+        { "id": 2, "text": "Không thể thay đổi phần tử sau khi tạo" },
+        { "id": 3, "text": "Chỉ chứa số nguyên" },
+        { "id": 4, "text": "Chỉ chứa chuỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 52,
+      "question": "Kiểu dữ liệu nào dùng để lưu tập hợp phần tử không trùng lặp?",
+      "options": [
+        { "id": 1, "text": "list" },
+        { "id": 2, "text": "tuple" },
+        { "id": 3, "text": "set" },
+        { "id": 4, "text": "dict" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 53,
+      "question": "Biểu thức nào tạo ra set trong Python?",
+      "options": [
+        { "id": 1, "text": "s = [1, 2, 3]" },
+        { "id": 2, "text": "s = (1, 2, 3)" },
+        { "id": 3, "text": "s = {1, 2, 3}" },
+        { "id": 4, "text": "s = <1, 2, 3>" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 54,
+      "question": "Kiểu dữ liệu nào dùng để lưu dữ liệu dạng cặp khóa - giá trị?",
+      "options": [
+        { "id": 1, "text": "list" },
+        { "id": 2, "text": "tuple" },
+        { "id": 3, "text": "set" },
+        { "id": 4, "text": "dict" }
+      ],
+      "correct_answer": 4,
+      "type": "cơ bản"
+    },
+    {
+      "id": 55,
+      "question": "Biểu thức nào tạo ra dictionary trong Python?",
+      "options": [
+        { "id": 1, "text": "d = [\"name\": \"Phuc\"]" },
+        { "id": 2, "text": "d = {\"name\": \"Phuc\"}" },
+        { "id": 3, "text": "d = (\"name\": \"Phuc\")" },
+        { "id": 4, "text": "d = <\"name\": \"Phuc\">" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 56,
+      "question": "Kết quả của đoạn code: d = {'a': 1, 'b': 2}; print(d['a']) là gì?",
+      "options": [
+        { "id": 1, "text": "a" },
+        { "id": 2, "text": "1" },
+        { "id": 3, "text": "2" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 57,
+      "question": "Hàm nào trả về số lượng phần tử của một list?",
+      "options": [
+        { "id": 1, "text": "count()" },
+        { "id": 2, "text": "length()" },
+        { "id": 3, "text": "len()" },
+        { "id": 4, "text": "size()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 58,
+      "question": "Kết quả của đoạn code: len([10, 20, 30]) là gì?",
+      "options": [
+        { "id": 1, "text": "2" },
+        { "id": 2, "text": "3" },
+        { "id": 3, "text": "30" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 59,
+      "question": "Hàm nào trả về giá trị lớn nhất trong một danh sách số?",
+      "options": [
+        { "id": 1, "text": "high()" },
+        { "id": 2, "text": "top()" },
+        { "id": 3, "text": "max()" },
+        { "id": 4, "text": "big()" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 60,
+      "question": "Hàm nào trả về giá trị nhỏ nhất trong một danh sách số?",
+      "options": [
+        { "id": 1, "text": "min()" },
+        { "id": 2, "text": "small()" },
+        { "id": 3, "text": "low()" },
+        { "id": 4, "text": "least()" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 61,
+      "question": "Hàm nào tính tổng các phần tử số trong list?",
+      "options": [
+        { "id": 1, "text": "total()" },
+        { "id": 2, "text": "sum()" },
+        { "id": 3, "text": "add()" },
+        { "id": 4, "text": "plus()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 62,
+      "question": "Kết quả của đoạn code: sum([1, 2, 3, 4]) là gì?",
+      "options": [
+        { "id": 1, "text": "10" },
+        { "id": 2, "text": "24" },
+        { "id": 3, "text": "4" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 63,
+      "question": "Hàm type(5) trả về kết quả nào?",
+      "options": [
+        { "id": 1, "text": "integer" },
+        { "id": 2, "text": "int" },
+        { "id": 3, "text": "<class 'int'>" },
+        { "id": 4, "text": "number" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 64,
+      "question": "Đoạn code nào kiểm tra kiểu dữ liệu của biến x?",
+      "options": [
+        { "id": 1, "text": "check(x)" },
+        { "id": 2, "text": "typeof(x)" },
+        { "id": 3, "text": "type(x)" },
+        { "id": 4, "text": "class(x)" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 65,
+      "question": "Kết quả của đoạn code: print(3 == 3) là gì?",
+      "options": [
+        { "id": 1, "text": "true" },
+        { "id": 2, "text": "True" },
+        { "id": 3, "text": "3" },
+        { "id": 4, "text": "False" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 66,
+      "question": "Kết quả của đoạn code: print(3 != 5) là gì?",
+      "options": [
+        { "id": 1, "text": "False" },
+        { "id": 2, "text": "3 != 5" },
+        { "id": 3, "text": "True" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 67,
+      "question": "Kết quả của đoạn code: print('a' in 'cat') là gì?",
+      "options": [
+        { "id": 1, "text": "True" },
+        { "id": 2, "text": "False" },
+        { "id": 3, "text": "a" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 68,
+      "question": "Toán tử in trong Python dùng để kiểm tra điều gì?",
+      "options": [
+        { "id": 1, "text": "Một phần tử có nằm trong collection hay không" },
+        { "id": 2, "text": "Một biến có phải số nguyên không" },
+        { "id": 3, "text": "Một hàm có tồn tại không" },
+        { "id": 4, "text": "Một file có mở được không" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 69,
+      "question": "Kết quả của đoạn code: x = 5; x += 2; print(x) là gì?",
+      "options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "2" },
+        { "id": 3, "text": "7" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 70,
+      "question": "Toán tử += trong Python có ý nghĩa gì?",
+      "options": [
+        { "id": 1, "text": "Tăng giá trị biến thêm một giá trị khác rồi gán lại" },
+        { "id": 2, "text": "So sánh lớn hơn hoặc bằng" },
+        { "id": 3, "text": "Cộng chuỗi bắt buộc" },
+        { "id": 4, "text": "Không có ý nghĩa đặc biệt" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 71,
+      "question": "Kết quả của đoạn code: for i in range(3): print(i) là gì?",
+      "options": [
+        { "id": 1, "text": "1 2 3" },
+        { "id": 2, "text": "0 1 2" },
+        { "id": 3, "text": "0 1 2 3" },
+        { "id": 4, "text": "3" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 72,
+      "question": "Kết quả của đoạn code: for i in range(1, 4): print(i) là gì?",
+      "options": [
+        { "id": 1, "text": "0 1 2 3" },
+        { "id": 2, "text": "1 2 3" },
+        { "id": 3, "text": "1 2 3 4" },
+        { "id": 4, "text": "4" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 73,
+      "question": "Kết quả của đoạn code: x = 1; while x < 4: print(x); x += 1 là gì?",
+      "options": [
+        { "id": 1, "text": "1 2 3" },
+        { "id": 2, "text": "0 1 2 3" },
+        { "id": 3, "text": "1 2 3 4" },
+        { "id": 4, "text": "Lặp vô hạn" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 74,
+      "question": "Lệnh pass trong Python thường dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Kết thúc chương trình" },
+        { "id": 2, "text": "Bỏ qua, dùng làm khối lệnh rỗng tạm thời" },
+        { "id": 3, "text": "Thoát vòng lặp" },
+        { "id": 4, "text": "Nhập dữ liệu" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 75,
+      "question": "Đâu là tên biến hợp lệ trong Python?",
+      "options": [
+        { "id": 1, "text": "2name" },
+        { "id": 2, "text": "my-name" },
+        { "id": 3, "text": "my_name" },
+        { "id": 4, "text": "class" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 76,
+      "question": "Tên biến trong Python không được bắt đầu bằng gì?",
+      "options": [
+        { "id": 1, "text": "Chữ cái" },
+        { "id": 2, "text": "Dấu gạch dưới" },
+        { "id": 3, "text": "Số" },
+        { "id": 4, "text": "Chữ thường" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 77,
+      "question": "Từ khóa nào sau đây là từ khóa dành riêng trong Python?",
+      "options": [
+        { "id": 1, "text": "value" },
+        { "id": 2, "text": "print" },
+        { "id": 3, "text": "return" },
+        { "id": 4, "text": "name" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 78,
+      "question": "Kết quả của đoạn code: a = [1, 2, 3]; print(a[-1]) là gì?",
+      "options": [
+        { "id": 1, "text": "1" },
+        { "id": 2, "text": "2" },
+        { "id": 3, "text": "3" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 79,
+      "question": "Kết quả của đoạn code: a = [1, 2, 3]; print(a[0:2]) là gì?",
+      "options": [
+        { "id": 1, "text": "[1, 2]" },
+        { "id": 2, "text": "[1, 2, 3]" },
+        { "id": 3, "text": "[2, 3]" },
+        { "id": 4, "text": "1 2" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 80,
+      "question": "Kết quả của đoạn code: 'python'.upper() là gì?",
+      "options": [
+        { "id": 1, "text": "Python" },
+        { "id": 2, "text": "PYTHON" },
+        { "id": 3, "text": "python" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 81,
+      "question": "Kết quả của đoạn code: 'PYTHON'.lower() là gì?",
+      "options": [
+        { "id": 1, "text": "python" },
+        { "id": 2, "text": "Python" },
+        { "id": 3, "text": "PYTHON" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 82,
+      "question": "Phương thức nào dùng để tách chuỗi thành list theo dấu phân cách?",
+      "options": [
+        { "id": 1, "text": "join()" },
+        { "id": 2, "text": "split()" },
+        { "id": 3, "text": "slice()" },
+        { "id": 4, "text": "cut()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 83,
+      "question": "Kết quả của đoạn code: 'a,b,c'.split(',') là gì?",
+      "options": [
+        { "id": 1, "text": "['a', 'b', 'c']" },
+        { "id": 2, "text": "a b c" },
+        { "id": 3, "text": "('a', 'b', 'c')" },
+        { "id": 4, "text": "{'a', 'b', 'c'}" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 84,
+      "question": "Phương thức nào dùng để nối các chuỗi trong một list thành một chuỗi?",
+      "options": [
+        { "id": 1, "text": "split()" },
+        { "id": 2, "text": "join()" },
+        { "id": 3, "text": "merge()" },
+        { "id": 4, "text": "concat()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 85,
+      "question": "Kết quả của đoạn code: '-'.join(['a', 'b', 'c']) là gì?",
+      "options": [
+        { "id": 1, "text": "abc" },
+        { "id": 2, "text": "a-b-c" },
+        { "id": 3, "text": "a, b, c" },
+        { "id": 4, "text": "['a-b-c']" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 86,
+      "question": "Hàm nào làm tròn xuống một số thực nếu chỉ xét các hàm cơ bản chuyển kiểu?",
+      "options": [
+        { "id": 1, "text": "round()" },
+        { "id": 2, "text": "int()" },
+        { "id": 3, "text": "float()" },
+        { "id": 4, "text": "str()" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 87,
+      "question": "Kết quả của đoạn code: int(3.9) là gì?",
+      "options": [
+        { "id": 1, "text": "4" },
+        { "id": 2, "text": "3.9" },
+        { "id": 3, "text": "3" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 3,
+      "type": "cơ bản"
+    },
+    {
+      "id": 88,
+      "question": "Kết quả của đoạn code: round(3.6) là gì?",
+      "options": [
+        { "id": 1, "text": "3" },
+        { "id": 2, "text": "4" },
+        { "id": 3, "text": "3.6" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 89,
+      "question": "Kết quả của đoạn code: abs(-7) là gì?",
+      "options": [
+        { "id": 1, "text": "-7" },
+        { "id": 2, "text": "7" },
+        { "id": 3, "text": "0" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 90,
+      "question": "Hàm abs() trong Python dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Lấy giá trị tuyệt đối" },
+        { "id": 2, "text": "Lấy số lớn nhất" },
+        { "id": 3, "text": "Lấy số nhỏ nhất" },
+        { "id": 4, "text": "Đổi số sang chuỗi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 91,
+      "question": "Kết quả của đoạn code: bool(0) là gì?",
+      "options": [
+        { "id": 1, "text": "True" },
+        { "id": 2, "text": "False" },
+        { "id": 3, "text": "0" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 92,
+      "question": "Kết quả của đoạn code: bool(1) là gì?",
+      "options": [
+        { "id": 1, "text": "True" },
+        { "id": 2, "text": "False" },
+        { "id": 3, "text": "1" },
+        { "id": 4, "text": "Lỗi" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 93,
+      "question": "Đoạn code nào tạo đúng một biến a có giá trị None?",
+      "options": [
+        { "id": 1, "text": "a = null" },
+        { "id": 2, "text": "a = None" },
+        { "id": 3, "text": "a = nil" },
+        { "id": 4, "text": "a = empty" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 94,
+      "question": "Giá trị None trong Python thường biểu thị điều gì?",
+      "options": [
+        { "id": 1, "text": "Giá trị rỗng hoặc không có gì" },
+        { "id": 2, "text": "Số 0" },
+        { "id": 3, "text": "Chuỗi rỗng bắt buộc" },
+        { "id": 4, "text": "Giá trị True" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 95,
+      "question": "Câu lệnh import math dùng để làm gì?",
+      "options": [
+        { "id": 1, "text": "Nhập dữ liệu toán học từ bàn phím" },
+        { "id": 2, "text": "Nạp module math để dùng các hàm toán học" },
+        { "id": 3, "text": "Tạo biến tên math" },
+        { "id": 4, "text": "In ra phép toán" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 96,
+      "question": "Từ khóa nào dùng để xử lý ngoại lệ trong Python?",
+      "options": [
+        { "id": 1, "text": "catch" },
+        { "id": 2, "text": "except" },
+        { "id": 3, "text": "error" },
+        { "id": 4, "text": "rescue" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 97,
+      "question": "Cấu trúc đúng để xử lý ngoại lệ cơ bản trong Python là gì?",
+      "options": [
+        { "id": 1, "text": "try ... except" },
+        { "id": 2, "text": "do ... catch" },
+        { "id": 3, "text": "check ... error" },
+        { "id": 4, "text": "begin ... rescue" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    },
+    {
+      "id": 98,
+      "question": "Kết quả của đoạn code: print('5' + '3') là gì?",
+      "options": [
+        { "id": 1, "text": "8" },
+        { "id": 2, "text": "53" },
+        { "id": 3, "text": "Lỗi" },
+        { "id": 4, "text": "5 3" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 99,
+      "question": "Kết quả của đoạn code: print(int('5') + int('3')) là gì?",
+      "options": [
+        { "id": 1, "text": "53" },
+        { "id": 2, "text": "8" },
+        { "id": 3, "text": "Lỗi" },
+        { "id": 4, "text": "5+3" }
+      ],
+      "correct_answer": 2,
+      "type": "cơ bản"
+    },
+    {
+      "id": 100,
+      "question": "Đoạn code nào in ra dòng chữ Hello, Python! ?",
+      "options": [
+        { "id": 1, "text": "print('Hello, Python!')" },
+        { "id": 2, "text": "echo('Hello, Python!')" },
+        { "id": 3, "text": "printf('Hello, Python!')" },
+        { "id": 4, "text": "show('Hello, Python!')" }
+      ],
+      "correct_answer": 1,
+      "type": "cơ bản"
+    }
+  ]

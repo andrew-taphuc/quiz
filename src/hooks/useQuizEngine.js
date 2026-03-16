@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 const TYPES = [
   { value: 'tất cả', label: 'Tất cả' },
   { value: 'cơ bản', label: 'Cơ bản' },
+  { value: 'code', label: 'Python (quiz_code)' },
 ]
 
 function shuffle(arr) {
@@ -16,9 +17,10 @@ function shuffle(arr) {
 
 export function useQuizEngine() {
   const [allQuestions, setAllQuestions] = useState([])
+  const [codeQuestions, setCodeQuestions] = useState([])
   const [loading, setLoading] = useState(true)
   const [screen, setScreen] = useState('config')
-  const [count, setCount] = useState(5)
+  const [count, setCount] = useState(10)
   const [type, setType] = useState('tất cả')
   const [generatedQuiz, setGeneratedQuiz] = useState([])
   const [answers, setAnswers] = useState({})
@@ -29,21 +31,44 @@ export function useQuizEngine() {
   const [practiceRevealMode, setPracticeRevealMode] = useState('full') // 'full' | 'onlyCorrect'
 
   useEffect(() => {
-    fetch('/quiz.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setAllQuestions(data)
+    let isMounted = true
+
+    Promise.allSettled([
+      fetch('/quiz.json').then((res) => res.json()),
+      fetch('/quiz_code.json').then((res) => res.json()),
+    ])
+      .then(([mainRes, codeRes]) => {
+        if (!isMounted) return
+
+        if (mainRes.status === 'fulfilled' && Array.isArray(mainRes.value)) {
+          setAllQuestions(mainRes.value)
+        }
+        if (codeRes.status === 'fulfilled' && Array.isArray(codeRes.value)) {
+          setCodeQuestions(codeRes.value)
+        }
         setLoading(false)
       })
-      .catch(() => setLoading(false))
+      .catch(() => {
+        if (!isMounted) return
+        setLoading(false)
+      })
+
+    return () => {
+      isMounted = false
+    }
   }, [])
 
   const filteredByType = useMemo(
-    () =>
-      type === 'tất cả'
-        ? allQuestions
-        : allQuestions.filter((q) => q.type === type),
-    [allQuestions, type],
+    () => {
+      if (type === 'code') {
+        return codeQuestions
+      }
+      if (type === 'tất cả') {
+        return allQuestions
+      }
+      return allQuestions.filter((q) => q.type === type)
+    },
+    [allQuestions, codeQuestions, type],
   )
 
   const maxCount = useMemo(

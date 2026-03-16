@@ -66,13 +66,13 @@ export function ConfigPage({ quiz }) {
 
           <div className="space-y-1 text-sm">
             <label className="font-medium text-slate-200">Loại câu hỏi</label>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-3 gap-2">
               {TYPES.map((t) => (
                 <button
                   key={t.value}
                   type="button"
                   onClick={() => setType(t.value)}
-                  className={`rounded-xl border px-3 py-2 text-xs font-medium transition ${
+                  className={`w-full rounded-full border px-2 py-1.5 text-[11px] font-medium transition ${
                     type === t.value
                       ? 'border-indigo-400 bg-indigo-500/15 text-indigo-200 shadow-sm'
                       : 'border-slate-700 bg-slate-900/80 text-slate-200 hover:border-indigo-400/60 hover:bg-slate-800'
